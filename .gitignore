@@ -1,0 +1,10 @@
+CMakeCache.txt
+CMakeFiles/**
+Makefile
+bin/*
+tags
+conanbuildinfo.txt
+conanbuildinfo.cmake
+conan_imports_manifest.txt
+cmake_install.cmake
+conaninfo.txt

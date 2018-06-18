@@ -1,0 +1,13 @@
+[requires]
+boost/1.66.0@conan/stable
+
+[options]
+boost:shared=True # False
+# Take a look for all available options in conanfile.py
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./bin 
